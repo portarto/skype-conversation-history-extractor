@@ -28,8 +28,8 @@ processMessages = (error, data) => {
 
   const messages = processConversations(messagesJson.conversations, config);
 
-  writeToFile(messages, config.outputFileName);
+  writeToFile(messages, config.outputFilename);
   console.log('messages count: ', messages.length);
 }
 
-module.exports = () => fs.readFile(config.inputFileName, processMessages);
+module.exports = () => fs.readFile(config.inputFilename, processMessages);
