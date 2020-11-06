@@ -7,7 +7,7 @@
   - [https://support.skype.com/en/faq/FA34894/how-do-i-export-my-skype-files-and-chat-history](https://support.skype.com/en/faq/FA34894/how-do-i-export-my-skype-files-and-chat-history)
 - Clone or download this repository
 - Download the chat history json and paste it to the same folder you have cloned the repository
-- run it
+- Run it
 
 #### tested with node v12.18.4
 
