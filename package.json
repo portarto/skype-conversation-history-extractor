@@ -1,0 +1,22 @@
+{
+  "name": "skype-conversation-history-extractor",
+  "version": "1.0.0",
+  "description": "hali",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portarto/skype-conversation-history-extractor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/portarto/skype-conversation-history-extractor/issues"
+  },
+  "homepage": "https://github.com/portarto/skype-conversation-history-extractor#readme",
+  "dependencies": {
+    "yargs": "^16.1.0"
+  }
+}
