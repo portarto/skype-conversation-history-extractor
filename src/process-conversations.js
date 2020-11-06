@@ -4,9 +4,9 @@ const isUserInChatMembers = (conversation, username) => {
     && JSON.parse(conversation.threadProperties.members).some(m => m === username);
 }
 
-const isChatWithUser = (conversation, name) => {
+const isChatWithUser = (conversation, username) => {
   return conversation
-    && conversation.displayName === name;
+    && conversation.id === username;
 }
 
 const isInGroup = (conversation, groups) => {
@@ -17,7 +17,7 @@ const isInGroup = (conversation, groups) => {
 
 const isUserPresent = (conversation, config) => {
   return isUserInChatMembers(conversation, config.username)
-    || isChatWithUser(conversation, config.name)
+    || isChatWithUser(conversation, config.username)
     || isInGroup(conversation, config.groups);
 }
 

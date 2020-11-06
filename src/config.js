@@ -2,7 +2,6 @@ const args = require('yargs').argv;
 const path = require('path');
 
 const username = args.username;
-const name = args.name;
 const filter = args.filter;
 const groups = [];
 if (args.groups) {
@@ -16,9 +15,6 @@ const outputFileName = args.outputFileName ? path.parse(path.basename(args.outpu
 module.exports = {
   get username() {
     return username;
-  },
-  get name() {
-    return name;
   },
   get filter() {
     return filter;
