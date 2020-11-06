@@ -22,3 +22,7 @@ You can use this tool for extracting messages received from a specific user in S
 ```
 node src/app.js --username=<username> --groups='Group1,Group2' --outputFileName=somefile
 ```
+### In case of someuser023:
+```
+node src/app.js --username=8:live:someuser023 --groups='Group1,Group2' --outputFileName=somefile
+˙``
